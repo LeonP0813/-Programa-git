@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script></head>
+<body>
+    <header>
+        <!-- Aquí puedes agregar tu imagen de fondo si deseas -->
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#nomina">Nómina</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#configuraciones">Configuraciones</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#ventas">Ventas</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <div class="user-icon" id="user-icon">
+            <img src="user-icon.png" alt="Usuario">
+            <i class="section-icon fas fa-user"></i>
+        </div>
+        <div class="user-info" id="user-info">
+            <span>ID: 12345</span>
+            <span>Nombre: Nombre del Usuario</span>
+            <span>Cargo: Cargo del Usuario</span>
+            <button id="logout-btn">Cerrar Sesión</button>
+        </div>
+    </div>
+    <main class="grid-container">
+        <div class="grid-row">
+            <section id="ventas" class="grid-item">
+                <a href="ventas.html">
+                    <i class="section-icon far fa-clipboard"></i>
+                    <h2>Ventas</h2>
+                </a>
+            </section>
+            <section id="configuraciones" class="grid-item">
+                <a href="configuraciones.html">
+                    <i class="section-icon fas fa-cogs"></i>
+                    <h2>Configuraciones</h2>
+                </a>
+            </section>
+            <section id="clientes" class="grid-item">
+                <a href="clientes.html">
+                    <i class="section-icon fas fa-users"></i>
+                    <h2>Clientes</h2>
+                </a>
+            </section>
+        </div>
+        <div class="grid-row">
+            <section id="nomina" class="grid-item">
+                <a href="nomina.html">
+                    <i class="section-icon fas fa-file-invoice-dollar"></i>
+                    <h2>Nómina</h2>
+                </a>
+            </section>
+            <section id="productos" class="grid-item">
+                <a href="productos.html">
+                    <i class="section-icon fas fa-box"></i>
+                    <h2>Inventario</h2>
+                </a>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Sena - Leonardo</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

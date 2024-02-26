@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(89, 4, 89); /* Color de fondo morado */
+    color: #fff; /* Texto blanco */
+    /*background-image: url('tu-imagen-de-fondo.jpg');
+    background-size: cover;
+    
+    color: white; /* Color de texto blanco */
+}
+
+header {
+    background-color: purple; /* Color de encabezado oscuro */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para la cabecera */
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilos para el icono de usuario */
+.user-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Estilos para la información del usuario */
+.user-info {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    color: #333;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Estilos para el botón de cierre de sesión */
+#logout-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+nav {
+    background-color: #222;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de sección */
+section {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Sombra semi-transparente */
+}
+
+/* Estilo para los íconos en las secciones */
+.section-icon {
+    font-size: 24px;
+    color: #007bff; /* Color azul */
+    margin-right: 10px;
+}
+
+/* Estilos de encabezados */
+h1, h2 {
+    color: #fff;
+}
+
+/* Estilos de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

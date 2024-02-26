@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(89, 4, 89); /* Color de fondo morado */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilo para el icono de usuario */
+.user-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Estilos de la cuadrícula */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columnas por fila */
+    grid-gap: 60px; /* Espacio entre elementos */
+    justify-content: center; /* Centrar horizontalmente en la pantalla */
+    align-items: center;
+}
+
+/* Alinear el texto de las secciones en el centro de las cuadrículas */
+.grid-item h2 {
+    text-align: center;
+}
+
+/* Estilos para la información del usuario */
+.user-info {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    color: #333;
+    position: absolute;
+    top: 85px;
+    right: 10px;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Estilo para el botón de cierre de sesión en la barra de encabezado */
+#logout-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #222;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Estilos de sección */
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Añade esta línea para centrar verticalmente */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Sombra semi-transparente */
+    text-align: center;
+}
+
+/* Estilo para los íconos en las secciones */
+.section-icon {
+    font-size: 24px;
+    color: #007bff; /* Color azul */
+    margin-right: 10px;
+}
+
+/* Estilos de encabezados */
+h1, h2 {
+    color: #fff;
+}
+
+/* Estilos de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
